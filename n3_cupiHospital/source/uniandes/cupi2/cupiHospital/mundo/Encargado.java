@@ -7,9 +7,11 @@ public class Encargado {
 		return null;
 	}
 
-	public String darAniosExperiencia() {
+	public String darAniosExperiencia(String nombre) {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+      
 
 }

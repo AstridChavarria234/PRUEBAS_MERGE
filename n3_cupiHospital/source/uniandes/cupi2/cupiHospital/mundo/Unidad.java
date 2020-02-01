@@ -173,7 +173,14 @@ public class Unidad {
 	 * 
 	 * @return Paciente de mayor edad, null si no hay pacientes en el hospital.
 	 */
-	public Paciente darPacienteMayorEdad() {
+	public Paciente darPacientMayorEdad() {
+		// TODO Parte2 PuntoG: Complete el método según la documentación dada.
+	}
+
+public Paciente darPacienteMayorEdad() {
+		// TODO Parte2 PuntoG: Complete el método según la documentación dada.
+	}
+public Paciente darPacienteMayorEdad() {
 		// TODO Parte2 PuntoG: Complete el método según la documentación dada.
 	}
 
@@ -188,8 +195,11 @@ public class Unidad {
 	 * @return True si el encargado se pudo asignar, false si la unidad ya tenía
 	 *         encargado.
 	 */
-	public boolean asignarEncargado(String pNombre, int pAniosExperiencia) {
+   
+	public boolean asignaEncargado(String p, int pAniosExperiencia) {
 		// TODO Parte2 PuntoH: Complete el método según la documentación dada.
 	}
+     
+       
 
 }

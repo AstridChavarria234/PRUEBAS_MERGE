@@ -19,6 +19,12 @@ import javax.swing.JDialog;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
+
+import javax.swing.JButton;
+import javax.swing.JDialog;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JTextField;
 /**
  * Diálogo para ingresar un paciente a una unidad.
  */
@@ -107,6 +113,19 @@ public class DialogoAsignarEncargado extends JDialog implements ActionListener
 		btnCancelar.addActionListener(this);
 
 		add(lblNombre);
+		add(txtNombre);
+		add(lblAnios);
+		add(txtAnios);
+		add(btnAsignar);
+		add(btnCancelar);
+
+add(lblNombre);
+		add(txtNombre);
+		add(lblAnios);
+		add(txtAnios);
+		add(btnAsignar);
+		add(btnCancelar);
+add(lblNombre);
 		add(txtNombre);
 		add(lblAnios);
 		add(txtAnios);
