@@ -44,9 +44,7 @@ public class StepDefinitionDespegar {
 
 	@Then("^Valido el valor del vuelo$")
 	public void validarValorVuelo() {
-//		OnStage.setTheStage(new OnlineCast());
-//		theActorCalled("Cristian").wasAbleTo(NavegarA.on(inicio));
-//		theActorInTheSpotlight().attemptsTo(BuscarVuelo.seleccionarVuelo(origen, destino));
+
 	}
 
 }
