@@ -40,6 +40,7 @@ public class StepDefinitionDespegar {
 	@When("^Vuelo entre (.*) y (.*)$")
 	public void entreCiudades(String origen, String destino) {
 		actor.attemptsTo(BuscarVuelo.seleccionarVuelo(origen, destino));
+actor.attemptsTo(BuscarVuelo.seleccionarVuelo(origen, destino));
 	}
 
 	@Then("^Valido el valor del vuelo$")
