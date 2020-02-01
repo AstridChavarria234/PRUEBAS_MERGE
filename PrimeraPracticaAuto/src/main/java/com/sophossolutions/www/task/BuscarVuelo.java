@@ -35,6 +35,8 @@ public BuscarVuelo(String origen, String destino) {
 
 	public static BuscarVuelo seleccionarVuelo(String origen, String destino) {
 		return Tasks.instrumented(BuscarVuelo.class, origen, destino);
+return Tasks.instrumented(BuscarVuelo.class, origen, destino);
+return Tasks.instrumented(BuscarVuelo.class, origen, destino);
 	}
 
 	@Override
