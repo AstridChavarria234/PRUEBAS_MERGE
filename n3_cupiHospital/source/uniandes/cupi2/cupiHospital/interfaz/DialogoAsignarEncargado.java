@@ -9,7 +9,7 @@
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
  */
 package uniandes.cupi2.cupiHospital.interfaz;
-
+/* SE REALIZA CAMBIO PARA PROBAR MERGE*/
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
