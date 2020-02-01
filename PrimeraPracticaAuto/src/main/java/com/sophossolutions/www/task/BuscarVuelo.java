@@ -7,7 +7,7 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
-
+/*SE REALIZA CAMBIO PARA MERGE*/
 public class BuscarVuelo implements Task {
 
 	private String origen;
