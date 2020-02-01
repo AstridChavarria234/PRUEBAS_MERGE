@@ -11,16 +11,16 @@ public class InicioDespegar extends PageObject {
 	public static final Target VUELOS=Target.the("Selecciona la opción vuelos") 
 		.located(By.xpath("/html/body/nav/div[2]/div[1]/div[3]/ul/li[2]/a\r\n"));
 	
-	public static final Target ORIGEN=Target.the("Ingresar origen Medellin") 
+	public static final Target ORIG=Target.the("Ingresar origen Medellin") 
 			.located(By.xpath("//*[@id='searchbox-sbox-box-flights']/div/div/div[3]/div[2]/div[1]/div[1]/div/div/div/input"));
 	
 	public static final Target DESRTINO=Target.the("Ingresar destino Cali") 
 			.located(By.xpath("//*[@id='searchbox-sbox-box-flights']/div/div/div[3]/div[2]/div[1]/div[2]/div/div/div/div/input"));
 	
-	public static final Target FECHAIDA=Target.the("Selecciona la fecha de ida") 
+	public static final Target IDA=Target.the("Selecciona la fecha de ida") 
 			.located(By.xpath("/html/body/div[6]/div/div[5]/div[1]/div[4]/span[27]/span[1]"));
 	
-	public static final Target FECHAREGRESO=Target.the("Selecciona la fecha de regreso") 
+	public static final Target REGRESO=Target.the("Selecciona la fecha de regreso") 
 			.located(By.xpath("/html/body/div[6]/div/div[5]/div[1]/div[4]/span[31]/span[1]"));
 	
 	public static final Target BUSCARVUELO=Target.the("Selecciona la opción buscar") 
