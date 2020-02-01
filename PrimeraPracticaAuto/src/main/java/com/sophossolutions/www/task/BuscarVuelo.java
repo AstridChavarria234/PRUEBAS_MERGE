@@ -26,8 +26,8 @@ public class BuscarVuelo implements Task {
 
 	@Override
 	public <T extends Actor> void performAs(T actor) {
-		actor.attemptsTo(Click.on(InicioDespegar.VUELOS), Enter.theValue(origen).into(InicioDespegar.ORIGEN),
-				Enter.theValue(destino).into(InicioDespegar.DESRTINO), Click.on(InicioDespegar.BUSCARVUELO));
+		actor.attemptsTo(Click.on(InicioDespegar.VUELO), Enter.theValue(origen).into(InicioDespegar.ORIGENDATE),
+				Enter.theValue(destino).into(InicioDespegar.DESTINO), Click.on(InicioDespegar.BUSCARVUELO));
 	}
 
 }
