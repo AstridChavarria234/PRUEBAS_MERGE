@@ -80,6 +80,21 @@ public class Fecha
         return anio;
     }
 
+public int darAnio( )
+    {
+        return anio;
+    }
+
+
+public int darAnio( )
+    {
+        return anio;
+    }
+public int darAnio( )
+    {
+        return anio;
+    }
+
     /**
      * Retorna la diferencia en meses que hay entre dos fechas.
      * @param pFecha Fecha contra la que se está comparando. pFecha != null.
