@@ -22,6 +22,7 @@ public class NavegarA implements Task{
 	public <T extends Actor> void performAs(T actor) {
 		
 		actor.attemptsTo(Open.browserOn(page));
+actor.attemptsTo(Open.browserOn(page));
 	}
 
 }
