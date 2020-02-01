@@ -7,11 +7,8 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
-<<<<<<< HEAD
-/*SE REALIZA CAMBIO PARA MERGE*/
-=======
-/*SE REALIZA CAMBIO PARA MERGE* RAMA USER2/
->>>>>>> user2
+
+
 public class BuscarVuelo implements Task {
 
 	private String origen;
@@ -30,7 +27,7 @@ public class BuscarVuelo implements Task {
 
 	@Override
 	public <T extends Actor> void performAs(T actor) {
-		actor.attemptsTo(Click.on(InicioDespegar.VUELO), Enter.theValue(origen).into(InicioDespegar.ORIGENDATE),
+		actor.attemptsTo(Click.on(InicioDespegar.VUELOS), Enter.theValue(origen).into(InicioDespegar.ORIGEN),
 				Enter.theValue(destino).into(InicioDespegar.DESTINO), Click.on(InicioDespegar.BUSCARVUELO));
 	}
 
