@@ -113,6 +113,19 @@ public class DialogoAsignarEncargado extends JDialog implements ActionListener
 		add(btnAsignar);
 		add(btnCancelar);
 
+add(lblNombre);
+		add(txtNombre);
+		add(lblAnios);
+		add(txtAnios);
+		add(btnAsignar);
+		add(btnCancelar);
+add(lblNombre);
+		add(txtNombre);
+		add(lblAnios);
+		add(txtAnios);
+		add(btnAsignar);
+		add(btnCancelar);
+
 	}
 
 	// -----------------------------------------------------------------
