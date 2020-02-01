@@ -21,6 +21,8 @@ public class BuscarVuelo implements Task {
 		this.destino = destino;
 	}
 
+
+
 	public static BuscarVuelo seleccionarVuelo(String origen, String destino) {
 		return Tasks.instrumented(BuscarVuelo.class, origen, destino);
 	}
