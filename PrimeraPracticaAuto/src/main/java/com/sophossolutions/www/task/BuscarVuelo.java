@@ -21,6 +21,25 @@ public class BuscarVuelo implements Task {
 		this.destino = destino;
 	}
 
+private String origen;
+	private String destino;
+	private static final String INICIOVUELO = "Mié, 29 ene 2020";
+	private static final String FINVUELO = "Vie, 31 ene 2020";
+
+	public BuscarVuelo(String origen, String destino) {
+		this.origen = origen;
+		this.destino = destino;
+	}
+private String origen;
+	private String destino;
+	private static final String INICIOVUELO = "Mié, 29 ene 2020";
+	private static final String FINVUELO = "Vie, 31 ene 2020";
+
+	public BuscarVuelo(String origen, String destino) {
+		this.origen = origen;
+		this.destino = destino;
+	}
+
 
 
 	public static BuscarVuelo seleccionarVuelo(String origen, String destino) {
