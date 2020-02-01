@@ -177,6 +177,13 @@ public class Unidad {
 		// TODO Parte2 PuntoG: Complete el método según la documentación dada.
 	}
 
+public Paciente darPacienteMayorEdad() {
+		// TODO Parte2 PuntoG: Complete el método según la documentación dada.
+	}
+public Paciente darPacienteMayorEdad() {
+		// TODO Parte2 PuntoG: Complete el método según la documentación dada.
+	}
+
 	/**
 	 * Asigna el encargado con los valores dados por parámetro a la unidad, si la
 	 * unidad ya tenía encargado no lo asigna.
