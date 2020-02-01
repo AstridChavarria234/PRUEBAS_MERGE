@@ -14,7 +14,7 @@ public class InicioDespegar extends PageObject {
 	public static final Target ORIG=Target.the("Ingresar origen Medellin") 
 			.located(By.xpath("//*[@id='searchbox-sbox-box-flights']/div/div/div[3]/div[2]/div[1]/div[1]/div/div/div/input"));
 	
-	public static final Target DESTINO=Target.the("Ingresar destino Cali") 
+	public static final Target DERSTINO=Target.the("Ingresar destino Cali") 
 			.located(By.xpath("//*[@id='searchbox-sbox-box-flights']/div/div/div[3]/div[2]/div[1]/div[2]/div/div/div/div/input"));
 	
 

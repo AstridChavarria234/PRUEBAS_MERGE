@@ -37,7 +37,7 @@ return Tasks.instrumented(BuscarVuelo.class, origen, destino);
 	@Override
 	public <T extends Actor> void performAs(T actor) {
 		actor.attemptsTo(Click.on(InicioDespegar.VUELOS), Enter.theValue(origen).into(InicioDespegar.ORIG),
-				Enter.theValue(destino).into(InicioDespegar.DESTINO), Click.on(InicioDespegar.BUSCARVUELO));
+				Enter.theValue(destino).into(InicioDespegar.DERSTINO), Click.on(InicioDespegar.BUSCARVUELO));
 	}
 
 }
