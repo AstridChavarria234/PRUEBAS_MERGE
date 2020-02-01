@@ -7,7 +7,11 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
+<<<<<<< HEAD
 /*SE REALIZA CAMBIO PARA MERGE*/
+=======
+/*SE REALIZA CAMBIO PARA MERGE* RAMA USER2/
+>>>>>>> user2
 public class BuscarVuelo implements Task {
 
 	private String origen;
