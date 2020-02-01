@@ -62,6 +62,11 @@ public class Fecha
         return dia;
     }
 
+public int darDia( )
+    {
+        return dia;
+    }
+
     /**
      * Retorna el mes de la fecha.
      * @return Mes de la fecha.
