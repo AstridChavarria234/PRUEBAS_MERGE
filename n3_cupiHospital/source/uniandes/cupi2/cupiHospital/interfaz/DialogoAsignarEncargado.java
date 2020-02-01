@@ -9,10 +9,16 @@
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
  */
 package uniandes.cupi2.cupiHospital.interfaz;
-
+/* SE REALIZA CAMBIO PARA PROBAR MERGE*/
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JDialog;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JTextField;
 
 import javax.swing.JButton;
 import javax.swing.JDialog;
@@ -107,6 +113,19 @@ public class DialogoAsignarEncargado extends JDialog implements ActionListener
 		btnCancelar.addActionListener(this);
 
 		add(lblNombre);
+		add(txtNombre);
+		add(lblAnios);
+		add(txtAnios);
+		add(btnAsignar);
+		add(btnCancelar);
+
+add(lblNombre);
+		add(txtNombre);
+		add(lblAnios);
+		add(txtAnios);
+		add(btnAsignar);
+		add(btnCancelar);
+add(lblNombre);
 		add(txtNombre);
 		add(lblAnios);
 		add(txtAnios);

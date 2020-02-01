@@ -8,6 +8,7 @@ import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 
+
 public class BuscarVuelo implements Task {
 
 	private String origen;
@@ -20,6 +21,8 @@ public class BuscarVuelo implements Task {
 		this.destino = destino;
 	}
 
+
+
 	public static BuscarVuelo seleccionarVuelo(String origen, String destino) {
 		return Tasks.instrumented(BuscarVuelo.class, origen, destino);
 	}
@@ -27,7 +30,9 @@ public class BuscarVuelo implements Task {
 	@Override
 	public <T extends Actor> void performAs(T actor) {
 		actor.attemptsTo(Click.on(InicioDespegar.VUELOS), Enter.theValue(origen).into(InicioDespegar.ORIG),
-				Enter.theValue(destino).into(InicioDespegar.DESRTINO), Click.on(InicioDespegar.BUSCARVUELO));
+
+				Enter.theValue(destino).into(InicioDespegar.DESTINO), Click.on(InicioDespegar.BUSCARVUELO));
+
 	}
 
 }
